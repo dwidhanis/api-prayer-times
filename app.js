@@ -28,7 +28,8 @@ function success(position) {
 }
 
 function error() {
-    alert('Unable to retrieve your location');
+    // Default location latitudes and longitudes Semarang
+    prayerTimes('-6.966667', '110.416664');
 }
 
 function userLocation() {
